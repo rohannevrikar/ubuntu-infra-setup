@@ -1,4 +1,4 @@
-##Ubuntu miniature environment setup
+## Ubuntu miniature environment setup
 
 ### High Level Design
 
