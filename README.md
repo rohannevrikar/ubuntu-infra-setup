@@ -115,7 +115,7 @@ The rules which are created will satisfy the following:
 ### Challenges
 
 - Not able to make monitoring work as expected. Installed required things on respective hosts, but check_nrpe command fails with error `Connection reset by peer`. NRPE and Nagios are installed properly. 
-- nginx throws a limitations of worker_connections if port range is more than 786, as it is the default value. Increased the number of worker_connections but still not all ports are open as expected. 
+- nginx throws a limitations of worker_connections if port range is more than 786, as it is the default value. Increased the number of worker_connections to match the number of open ports required, but it causes issues with server mostly because of memory. Ref: https://stackoverflow.com/questions/28265717/worker-connections-are-not-enough
 
 ### Scope for improvements:
 
