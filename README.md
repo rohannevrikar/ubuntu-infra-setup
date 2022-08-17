@@ -86,8 +86,8 @@ Steps (for each server):
 
 - Created a user using `sudo adduser <username>`
 - Granted sudo access: `sudo adduser <username> sudo`
-- Copy public ssh keys to /home/<username>/.ssh/authorized_keys. Keys in authorized_keys file are the ones which will be authenticated against the private key at the time of ssh. 
-- ssh from <username>@hostIP using private key. It should succeed. 
+- Copy public ssh keys to /home/username/.ssh/authorized_keys. Keys in authorized_keys file are the ones which will be authenticated against the private key at the time of ssh. 
+- ssh from username@hostIP using private key. It should succeed. 
 
 Resources:
 
