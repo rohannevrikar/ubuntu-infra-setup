@@ -1,5 +1,11 @@
 ## Ubuntu miniature environment setup
 
+### Project board
+
+Created a GitHub project to keep track of tasks. Take a look by notes of each task by clicking on them. 
+
+https://github.com/users/rohannevrikar/projects/2/views/1?layout=board
+
 ### High Level Design
 
 ![image](https://user-images.githubusercontent.com/26645175/184925658-8bad90d3-afb1-4a35-acc0-5d904df0300c.png)
